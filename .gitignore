@@ -1,0 +1,14 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Airflow local mounts (We don't want to sync logs or databases to GitHub)
+logs/
+plugins/
+config/
+postgres-db-volume/
+
+# F1 project specific data buffers
+f1_cache/
+raw_data/
